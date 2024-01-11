@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "license": "MIT",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.cts",
+  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/bolstycjw/chartjs-adapter-dayjs-4.git"
@@ -38,23 +38,19 @@
   },
   "name": "chartjs-adapter-dayjs-4",
   "author": "bolstycjw",
+  "module": "./dist/index.mjs",
   "exports": {
-    "require": {
-      "types": "./dist/index.d.cts",
-      "default": "./dist/index.cjs"
-    },
-    "import": {
-      "types": "./dist/index.d.mts",
-      "default": "./dist/index.mjs"
-    }
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
   },
   "size-limit": [
     {
-      "path": "dist/chartjs-adapter-dayjs-4.cjs.production.min.js",
+      "path": "./dist/chartjs-adapter-dayjs-4.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/chartjs-adapter-dayjs-4.esm.js",
+      "path": "./dist/chartjs-adapter-dayjs-4.esm.js",
       "limit": "10 KB"
     }
   ],
