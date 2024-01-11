@@ -23,9 +23,9 @@ import 'chartjs-adapter-dayjs-4/dist/chartjs-adapter-dayjs-4.esm';
 
 ## Configuration
 
-### v4 [Chart.js documention](https://www.chartjs.org/docs/latest)
+### v4 [Chart.js documentation](https://www.chartjs.org/docs/latest)
 
-Read the Chart.js documention [v4](https://www.chartjs.org/docs/latest) for possible date/time related options. For example, the time scale `time.*` options [v4](https://www.chartjs.org/docs/latest/axes/cartesian/time.html#configuration-options) can be overridden using the [Day.js formats](https://day.js.org/docs/en/display/format).
+Read the Chart.js documentation [v4](https://www.chartjs.org/docs/latest) for possible date/time related options. For example, the time scale `time.*` options [v4](https://www.chartjs.org/docs/latest/axes/cartesian/time.html#configuration-options) can be overridden using the [Day.js formats](https://day.js.org/docs/en/display/format).
 
 ## Development
 
