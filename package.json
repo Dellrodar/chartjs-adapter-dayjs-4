@@ -2,8 +2,8 @@
   "type": "module",
   "version": "1.0.4",
   "license": "MIT",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/bolstycjw/chartjs-adapter-dayjs-4.git"
@@ -38,7 +38,7 @@
   },
   "name": "chartjs-adapter-dayjs-4",
   "author": "bolstycjw",
-  "module": "./dist/index.mjs",
+  "module": "dist/index.mjs",
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.mjs",
