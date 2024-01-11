@@ -2,8 +2,7 @@
   "type": "module",
   "version": "1.0.4",
   "license": "MIT",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.cts",
   "repository": {
     "type": "git",
@@ -21,11 +20,10 @@
     "node": ">=10"
   },
   "scripts": {
-    "start": "tsc watch",
-    "build": "pkgroll",
+    "start": "pkgroll --watch",
+    "build": "pkgroll --minify",
     "test": "tsc test",
     "lint": "tsc lint",
-    "prepare": "pkgroll",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
