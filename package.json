@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "pkgroll --watch",
-    "build": "pkgroll --minify",
+    "build": "pkgroll",
     "test": "tsc test",
     "lint": "tsc lint",
     "size": "size-limit",
